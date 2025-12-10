@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>eDex - Education Platform </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+        
+    <!-- Navbar Section (Bootstrap, raw CSS) -->
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <span class="logo-e">e</span><span class="logo-dex">Dex</span>
+                </div>
+                <nav class="site-navbar">
+                    <a href="#" class="nav-link active">Home</a>
+                    <a href="#" class="nav-link">About</a>
+                    <a href="#" class="nav-link">Course</a>
+                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="nav-link">Contact</a>
+                </nav>
+                <div class="auth-buttons">
+          <button class="btn-login">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M19.5 8.25H4.5C4.08579 8.25 3.75 8.58579 3.75 9V19.5C3.75 19.9142 4.08579 20.25 4.5 20.25H19.5C19.9142 20.25 20.25 19.9142 20.25 19.5V9C20.25 8.58579 19.9142 8.25 19.5 8.25Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8.625 8.25V4.875C8.625 3.97989 8.98058 3.12145 9.61351 2.48851C10.2465 1.85558 11.1049 1.5 12 1.5C12.8951 1.5 13.7535 1.85558 14.3865 2.48851C15.0194 3.12145 15.375 3.97989 15.375 4.875V8.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 15.375C12.6213 15.375 13.125 14.8713 13.125 14.25C13.125 13.6287 12.6213 13.125 12 13.125C11.3787 13.125 10.875 13.6287 10.875 14.25C10.875 14.8713 11.3787 15.375 12 15.375Z" fill="white"/>
+            </svg>
+            Login
+          </button>
+          <button class="btn-signup">Sign up for Free</button>
+        </div>
+      </div>
+    </header>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="badge">START TO SUCCESS</div>
+                <h1 class="hero-title">Access To 5000+ Courses <br/>from 300 Instructors <br/>& Institutions</h1>
+                <p class="hero-subtitle">Various versions have evolved over the years, sometimes by accident,</p>
+                
+                <div class="search-container">
+                    <div class="search-box">
+                        <input type="text" placeholder="What do want to learn?" class="search-input">
+                        <button class="search-btn">
+                            <svg viewBox="0 0 24 24">
+                                <circle cx="10" cy="10" r="6" stroke="white" stroke-width="2.5" fill="none"/>
+                                <path d="M15 15l5 5" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Saly-10.png" alt="Students learning together">
+            </div>
+        </div>
+        
+      
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <div class="stat-icon instructor">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="45" height="44" viewBox="0 0 45 44" fill="none">
+                        <path d="M1.5 16.5L22.125 5.5L42.75 16.5L22.125 27.5L1.5 16.5Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M32.4375 41.25V22L22.125 16.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M37.9375 19.0609V28.4453C37.9363 28.7374 37.8397 29.021 37.6625 29.2531C36.5109 30.8 31.6297 36.4375 22.125 36.4375C12.6203 36.4375 7.73906 30.8 6.5875 29.2531C6.41029 29.021 6.31373 28.7374 6.3125 28.4453V19.0609" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-number">300</div>
+                    <div class="stat-label">Instructor</div>
+                </div>
+            </div>
+            
+            <div class="stat-item">
+                <div class="stat-icon student">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                        <path d="M15.125 27.5C20.061 27.5 24.0625 23.4985 24.0625 18.5625C24.0625 13.6265 20.061 9.625 15.125 9.625C10.189 9.625 6.1875 13.6265 6.1875 18.5625C6.1875 23.4985 10.189 27.5 15.125 27.5Z" stroke="white" stroke-width="3" stroke-miterlimit="10"/>
+                        <path d="M26.7095 9.95156C27.4995 9.73728 28.3143 9.62749 29.1329 9.625C31.5033 9.625 33.7766 10.5666 35.4527 12.2427C37.1288 13.9188 38.0704 16.1921 38.0704 18.5625C38.0704 20.9329 37.1288 23.2062 35.4527 24.8823C33.7766 26.5584 31.5033 27.5 29.1329 27.5" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2.75 33.9281C4.14553 31.9422 5.9985 30.3214 8.15239 29.2025C10.3063 28.0835 12.6978 27.4994 15.125 27.4994C17.5522 27.4994 19.9437 28.0835 22.0976 29.2025C24.2515 30.3214 26.1045 31.9422 27.5 33.9281" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M29.1328 27.5C31.5602 27.4985 33.9522 28.0819 36.1063 29.2009C38.2605 30.3198 40.1132 31.9413 41.5078 33.9281" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-number">20,000+</div>
+                    <div class="stat-label">Student</div>
+                </div>
+            </div>
+            
+            <div class="stat-item">
+                <div class="stat-icon video">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                        <path d="M4.125 10.3125H26.125C27.5837 10.3125 28.9826 10.892 30.0141 11.9234C31.0455 12.9549 31.625 14.3538 31.625 15.8125V32.3125C31.625 32.6772 31.4801 33.0269 31.2223 33.2848C30.9644 33.5426 30.6147 33.6875 30.25 33.6875H8.25C6.79131 33.6875 5.39236 33.108 4.36091 32.0766C3.32946 31.0451 2.75 29.6462 2.75 28.1875V11.6875C2.75 11.3228 2.89487 10.9731 3.15273 10.7152C3.41059 10.4574 3.76033 10.3125 4.125 10.3125V10.3125Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M31.625 19.25L41.25 13.75V30.25L31.625 24.75" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-number">10,000+</div>
+                    <div class="stat-label">Video</div>
+                </div>
+            </div>
+            
+            <div class="stat-item">
+                <div class="stat-icon users">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                        <path d="M22 30.9375C25.797 30.9375 28.875 27.8595 28.875 24.0625C28.875 20.2655 25.797 17.1875 22 17.1875C18.203 17.1875 15.125 20.2655 15.125 24.0625C15.125 27.8595 18.203 30.9375 22 30.9375Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M33.6875 19.9375C35.2889 19.9348 36.8688 20.3064 38.3012 21.0226C39.7336 21.7388 40.9788 22.7798 41.9375 24.0625" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2.0625 24.0625C3.02122 22.7798 4.26642 21.7388 5.69879 21.0226C7.13116 20.3064 8.71106 19.9348 10.3125 19.9375" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M12.1001 37.125C13.0056 35.2706 14.4137 33.7078 16.164 32.6147C17.9143 31.5215 19.9365 30.9419 22.0001 30.9419C24.0637 30.9419 26.0859 31.5215 27.8362 32.6147C29.5865 33.7078 30.9946 35.2706 31.9001 37.125" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M10.3125 19.9375C9.26857 19.9386 8.24593 19.6425 7.36403 19.084C6.48214 18.5254 5.77741 17.7274 5.33219 16.7832C4.88698 15.839 4.71966 14.7876 4.84979 13.7519C4.97992 12.7161 5.40213 11.7388 6.06707 10.9341C6.73202 10.1294 7.61225 9.5305 8.60491 9.20747C9.59757 8.88443 10.6617 8.85056 11.6728 9.10982C12.684 9.36908 13.6006 9.91076 14.3153 10.6716C15.0301 11.4324 15.5136 12.3809 15.7093 13.4062" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M28.2905 13.4062C28.4863 12.3809 28.9698 11.4324 29.6845 10.6716C30.3993 9.91076 31.3158 9.36908 32.327 9.10982C33.3382 8.85056 34.4023 8.88443 35.395 9.20747C36.3876 9.5305 37.2678 10.1294 37.9328 10.9341C38.5977 11.7388 39.0199 12.7161 39.1501 13.7519C39.2802 14.7876 39.1129 15.839 38.6677 16.7832C38.2225 17.7274 37.5177 18.5254 36.6358 19.084C35.7539 19.6425 34.7313 19.9386 33.6874 19.9375" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="stat-info">
+                    <div class="stat-number">1,00,000+</div>
+                    <div class="stat-label">User's</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Courses Section -->
+    <section class="courses">
+        <div class="section-header">
+            <h2 class="section-title">Most <span class="highlight">Popular Course</span></h2>
+            <p class="section-subtitle">Various versions have evolved over the years, sometimes by accident,</p>
+        </div>
+        
+        <div class="course-container">
+            <!-- Course 1 -->
+            <div class="course-card">
+                <div class="course-tag html">HTML</div>
+                <div class="course-image">
+                    <img src="1.png" alt="HTML Course">
+                </div>
+                <h3 class="course-title">Various versions have evolved daf</h3>
+                <div class="course-rating">
+                    <div class="stars">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                    </div>
+                    <span class="rating-count">(15)</span>
+                </div>
+                <div class="course-footer">
+                    <div class="course-price">$ 500</div>
+                    <button class="add-to-cart">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M6 18L18 6" stroke="url(#paint0_linear_70_628)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8.25 6H18V15.75" stroke="url(#paint1_linear_70_628)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <defs>
+                                        <linearGradient id="paint0_linear_70_628" x1="12" y1="6" x2="12" y2="18" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FFC27A"/>
+                                        <stop offset="1" stop-color="#FFA337"/>
+                                        </linearGradient>
+                                        <linearGradient id="paint1_linear_70_628" x1="13.125" y1="6" x2="13.125" y2="15.75" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FFC27A"/>
+                                        <stop offset="1" stop-color="#FFA337"/>
+                                        </linearGradient>
+                                    </defs>
+                            </svg>                          
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Course 2 -->
+            <div class="course-card">
+                <div class="course-tag design">Design</div>
+                <div class="course-image">
+                    <div class="image-placeholder design-bg">
+                        <img src="2.png" alt="Design Course">
+                    </div>
+                </div>
+                <h3 class="course-title">Various versions have evolved daf</h3>
+                <div class="course-rating">
+                    <div class="stars">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                    </div>
+                    <span class="rating-count">(20)</span>
+                </div>
+                <div class="course-footer">
+                    <div class="course-price">$ 500</div>
+                    <button class="add-to-cart active">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                             <path d="M6 18L18 6" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                             <path d="M8.25 6H18V15.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Course 3 -->
+            <div class="course-card">
+                <div class="course-tag business">Business</div>
+                <div class="course-image">
+                    <div class="image-placeholder business-bg">
+                        <img src="3.png" alt="Business Course">
+                    </div>
+                </div>
+                <h3 class="course-title">Various versions have evolved daf</h3>
+                <div class="course-rating">
+                    <div class="stars">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star empty"></span>
+                    </div>
+                    <span class="rating-count">(102)</span>
+                </div>
+                <div class="course-footer">
+                    <div class="course-price">$ 500</div>
+                    <button class="add-to-cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="url(#paint0_linear_70_781)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="url(#paint1_linear_70_781)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                                <linearGradient id="paint0_linear_70_781" x1="12" y1="6" x2="12" y2="18" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FFC27A"/>
+                                <stop offset="1" stop-color="#FFA337"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_70_781" x1="13.125" y1="6" x2="13.125" y2="15.75" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FFC27A"/>
+                                <stop offset="1" stop-color="#FFA337"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Course 4 -->
+            <div class="course-card">
+                <div class="course-tag business">Business</div>
+                <div class="course-image">
+                    <div class="image-placeholder purple-bg">
+                        <img src="4.png" alt="Business Course 2">
+                    </div>
+                </div>
+                <h3 class="course-title">Various versions have evolved daf</h3>
+                <div class="course-rating">
+                    <div class="stars">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star empty"></span>
+                    </div>
+                    <span class="rating-count">(102)</span>
+                </div>
+                <div class="course-footer">
+                    <div class="course-price">$ 500</div>
+                    <button class="add-to-cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="url(#paint0_linear_70_781)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="url(#paint1_linear_70_781)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                                <linearGradient id="paint0_linear_70_781" x1="12" y1="6" x2="12" y2="18" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FFC27A"/>
+                                <stop offset="1" stop-color="#FFA337"/>
+                                </linearGradient>
+                                <linearGradient id="paint1_linear_70_781" x1="13.125" y1="6" x2="13.125" y2="15.75" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FFC27A"/>
+                                <stop offset="1" stop-color="#FFA337"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Navigation arrows and pagination -->
+        <div class="course-navigation">
+            <button class="nav-arrow prev">
+                <svg viewBox="0 0 24 24">
+                    <path d="M15 6l-6 6 6 6" stroke="#363A3D" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                </svg>
+            </button>
+            
+            <div class="pagination">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            
+            <button class="nav-arrow next">
+                <svg viewBox="0 0 24 24">
+                    <path d="M9 6l6 6-6 6" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- POPULAR CATEGORIES SECTION -->
+    <section class="popular-categories">
+        <div class="container">
+            <h2 class="section-title">Most <span class="highlight">Popular Category</span></h2>
+            <p class="section-subtitle">Various versions have evolved over the years, sometimes by accident,</p>
+            <div class="categories-grid">
+                <div class="category-card featured">
+                    <span class="category-icon">🎨</span>
+                    <span class="category-name">Design</span>
+                    <button class="btn-arrow-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">💻</span>
+                    <span class="category-name">Development</span>
+                    <button class="btn-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">📸</span>
+                    <span class="category-name">Photography</span>
+                    <button class="btn-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">💪</span>
+                    <span class="category-name">Health & Fitness</span>
+                    <button class="btn-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">📱</span>
+                    <span class="category-name">Marketing</span>
+                    <button class="btn-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">🎵</span>
+                    <span class="category-name">Music</span>
+                    <button class="btn-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">👔</span>
+                    <span class="category-name">Business</span>
+                    <button class="btn-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">📊</span>
+                    <span class="category-name">Data Science</span>
+                    <button class="btn-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">🌟</span>
+                    <span class="category-name">Personal Dev</span>
+                    <button class="btn-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">📚</span>
+                    <span class="category-name">Lifestyle</span>
+                    <button class="btn-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">🎓</span>
+                    <span class="category-name">Teaching</span>
+                    <button class="btn-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="category-card">
+                    <span class="category-icon">💰</span>
+                    <span class="category-name">Finance</span>
+                    <button class="btn-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 18L18 6" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M8.25 6H18V15.75" stroke="#FFC27A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INSTRUCTORS SECTION -->
+    <section class="instructors">
+        <div class="container">
+            <h2 class="section-title">Our Best <span class="highlight">Instructor</span></h2>
+            <p class="section-subtitle">Various versions have evolved over the years, sometimes by accident,</p>
+            <div class="instructors-grid">
+                <div class="instructor-card">
+                    <img src="5.png" alt="Instructor 1">
+                    <h3>Jacob Jones</h3>
+                    <p>UI-UX Design Expert</p>
+                </div>
+                <div class="instructor-card">
+                    <img src="6.png" alt="Instructor 2">
+                    <h3>Jacob Jones</h3>
+                    <p>Social Media Expert</p>
+                </div>
+                <div class="instructor-card">
+                    <img src="7.png" alt="Instructor 3">
+                    <h3>Jacob Jones</h3>
+                    <p>Business Idea Expert</p>
+                </div>
+                <div class="instructor-card">
+                    <img src="8.png" alt="Instructor 4">
+                    <h3>Jacob Jones</h3>
+                    <p>Photography Expert</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Student <span class="highlight">Feedback</span></h2>
+            <p class="section-subtitle">Various versions have evolved over the years, sometimes by accident,</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="9.png" alt="Student 1">
+                        <div class="testimonial-info">
+                            <h4>Guy Hawkins</h4>
+                            <p>UI-UX Designer</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="10.png" alt="Student 2">
+                        <div class="testimonial-info">
+                            <h4>Guy Hawkins</h4>
+                            <p>UI-UX Designer</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <img src="11.png" alt="Student 3">
+                        <div class="testimonial-info">
+                            <h4>Guy Hawkins</h4>
+                            <p>UI-UX Designer</p>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst. Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta">
+        <div class="container cta-content">
+            <div class="cta-text">
+                <h2>Join <span class="highlight">World's largest</span> learning platform today</h2>
+                <p class="cta-subtitle">Start learning by registering for free</p>
+                <p class="cta-description">Ut pharetra ipsum nec leo blandit, sit amet tincidunt eros pharetra. Nam sed imperdiet turpis. In hac habitasse platea dictumst.</p>
+                <button class="btn-signup-large">Sign up for Free</button>
+            </div>
+            <div class="cta-image">
+                <div class="circle-bg"></div>
+                <img src="Saly-2.png" alt="Learning">
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Call: +123 400 123</p>
+                <p class="footer-desc">Praesent nulla massa, hendrerit vestibulum gravida in, feugiat auctor felis.</p>
+                <p>Email: example@mail.com</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22" fill="none">
+                      <path d="M14.9851 0H11.5888C9.57338 0 7.33162 0.864263 7.33162 3.84293C7.34145 4.88081 7.33162 5.87479 7.33162 6.99346H5V10.7764H7.40377V21.6667H11.8208V10.7045H14.7362L15 6.98284H11.7447C11.7447 6.98284 11.752 5.3273 11.7447 4.84652C11.7447 3.66942 12.946 3.73683 13.0183 3.73683C13.5899 3.73683 14.7014 3.73852 14.9868 3.73683V0H14.9851Z" fill="#3461FD"/>
+                    </svg>  
+                    </a>
+                    <a href="#" class="social-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <g clip-path="url(#clip0_1143_404)">
+                          <path d="M0 10C0 8.18666 0.44668 6.51334 1.34 4.98C2.23334 3.44666 3.44668 2.23334 4.98 1.34C6.51334 0.44666 8.18668 0 10 0C11.8133 0 13.4867 0.44666 15.02 1.34C16.5533 2.23334 17.7667 3.44666 18.66 4.98C19.5533 6.51334 20 8.18666 20 10C20 11.8133 19.5533 13.4867 18.66 15.02C17.7667 16.5533 16.5533 17.7667 15.02 18.66C13.4867 19.5533 11.8133 20 10 20C8.18668 20 6.51334 19.5533 4.98 18.66C3.44668 17.7667 2.23334 16.5533 1.34 15.02C0.44668 13.4867 0 11.8133 0 10ZM1.66 10C1.66 12.08 2.36 13.9133 3.76 15.5C4.4 14.2467 5.41334 13.0533 6.8 11.92C8.18668 10.7867 9.54 10.0733 10.86 9.78C10.66 9.31334 10.4667 8.89334 10.28 8.52C7.98668 9.25334 5.50668 9.62 2.84 9.62C2.32 9.62 1.93334 9.61334 1.68 9.6C1.68 9.65334 1.67668 9.72 1.67 9.8C1.66334 9.88 1.66 9.94666 1.66 10ZM1.92 7.94C2.21334 7.96666 2.64668 7.98 3.22 7.98C5.44668 7.98 7.56 7.68 9.56 7.08C8.54668 5.28 7.43334 3.78 6.22 2.58C5.16668 3.11334 4.26334 3.85334 3.51 4.8C2.75668 5.74666 2.22668 6.79334 1.92 7.94ZM4.9 16.58C6.40668 17.7533 8.10668 18.34 10 18.34C10.9867 18.34 11.9667 18.1533 12.94 17.78C12.6733 15.5 12.1533 13.2933 11.38 11.16C10.1533 11.4267 8.91668 12.1 7.67 13.18C6.42334 14.26 5.5 15.3933 4.9 16.58ZM7.96 1.94C9.13334 3.15334 10.22 4.66666 11.22 6.48C13.0333 5.72 14.4 4.75334 15.32 3.58C13.7733 2.3 12 1.66 10 1.66C9.32 1.66 8.64 1.75334 7.96 1.94ZM11.94 7.9C12.14 8.32666 12.3667 8.86666 12.62 9.52C13.6067 9.42666 14.68 9.38 15.84 9.38C16.6667 9.38 17.4867 9.4 18.3 9.44C18.1933 7.62666 17.54 6.01334 16.34 4.6C15.4733 5.89334 14.0067 6.99334 11.94 7.9ZM13.12 10.92C13.8 12.8933 14.26 14.92 14.5 17C15.5533 16.32 16.4133 15.4467 17.08 14.38C17.7467 13.3133 18.1467 12.16 18.28 10.92C17.3067 10.8533 16.42 10.82 15.62 10.82C14.8867 10.82 14.0533 10.8533 13.12 10.92Z" fill="#3461FD"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_1143_404">
+                            <rect width="20" height="20" fill="white"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+
+                    </a>
+                    <a href="#" class="social-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M0 2.32323C0 1.64982 0.225232 1.09426 0.675676 0.656565C1.12612 0.218848 1.71172 0 2.43243 0C3.14029 0 3.71299 0.215474 4.15058 0.646464C4.60102 1.09091 4.82625 1.67002 4.82625 2.38383C4.82625 3.0303 4.60747 3.569 4.16988 3.99999C3.71944 4.44444 3.12741 4.66666 2.39382 4.66666H2.37452C1.66666 4.66666 1.09396 4.44444 0.656371 3.99999C0.218784 3.55555 0 2.99662 0 2.32323ZM0.250965 20V6.50504H4.53668V20H0.250965ZM6.9112 20H11.1969V12.4646C11.1969 11.9932 11.2484 11.6296 11.3514 11.3737C11.5315 10.9158 11.805 10.5286 12.1718 10.2121C12.5386 9.8956 12.9987 9.73736 13.5521 9.73736C14.9936 9.73736 15.7143 10.7542 15.7143 12.7879V20H20V12.2626C20 10.2693 19.5496 8.75756 18.6486 7.72726C17.7477 6.69696 16.5573 6.18181 15.0772 6.18181C13.417 6.18181 12.1236 6.92928 11.1969 8.42423V8.46463H11.1776L11.1969 8.42423V6.50504H6.9112C6.93693 6.93601 6.94981 8.27607 6.94981 10.5252C6.94981 12.7744 6.93693 15.9326 6.9112 20Z" fill="#3461FD"/>
+                      </svg>
+                    </a>
+                    <a href="#" class="social-icon">
+                      
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M6.66721 10C6.66721 8.15913 8.15913 6.6664 10 6.6664C11.8409 6.6664 13.3336 8.15913 13.3336 10C13.3336 11.8409 11.8409 13.3336 10 13.3336C8.15913 13.3336 6.66721 11.8409 6.66721 10ZM4.86511 10C4.86511 12.836 7.16397 15.1349 10 15.1349C12.836 15.1349 15.1349 12.836 15.1349 10C15.1349 7.16397 12.836 4.8651 10 4.8651C7.16397 4.8651 4.86511 7.16397 4.86511 10ZM14.1381 4.66155C14.1381 5.32391 14.6753 5.86187 15.3385 5.86187C16.0008 5.86187 16.5388 5.32391 16.5388 4.66155C16.5388 3.99919 16.0016 3.46204 15.3385 3.46204C14.6753 3.46204 14.1381 3.99919 14.1381 4.66155ZM5.95961 18.1397C4.98465 18.0953 4.45477 17.933 4.10259 17.7956C3.6357 17.6139 3.30291 17.3974 2.95234 17.0477C2.60259 16.6979 2.3853 16.3651 2.20436 15.8982C2.06704 15.546 1.90469 15.0162 1.86026 14.0412C1.81179 12.9871 1.8021 12.6704 1.8021 10C1.8021 7.32956 1.8126 7.01373 1.86026 5.9588C1.90469 4.98384 2.06785 4.45477 2.20436 4.10178C2.38611 3.63489 2.60259 3.3021 2.95234 2.95153C3.3021 2.60178 3.6349 2.38449 4.10259 2.20355C4.45477 2.06624 4.98465 1.90388 5.95961 1.85945C7.01373 1.81099 7.33037 1.80129 10 1.80129C12.6704 1.80129 12.9863 1.81179 14.0412 1.85945C15.0162 1.90388 15.5452 2.06704 15.8982 2.20355C16.3651 2.38449 16.6979 2.60178 17.0485 2.95153C17.3982 3.30129 17.6147 3.63489 17.7964 4.10178C17.9338 4.45396 18.0961 4.98384 18.1406 5.9588C18.189 7.01373 18.1987 7.32956 18.1987 10C18.1987 12.6696 18.189 12.9863 18.1406 14.0412C18.0961 15.0162 17.933 15.546 17.7964 15.8982C17.6147 16.3651 17.3982 16.6979 17.0485 17.0477C16.6987 17.3974 16.3651 17.6139 15.8982 17.7956C15.546 17.933 15.0162 18.0953 14.0412 18.1397C12.9871 18.1882 12.6704 18.1979 10 18.1979C7.33037 18.1979 7.01373 18.1882 5.95961 18.1397V18.1397ZM5.87722 0.0605816C4.8126 0.109047 4.08562 0.277868 3.44992 0.52504C2.79241 0.780291 2.23506 1.12278 1.67851 1.67851C1.12278 2.23425 0.780291 2.7916 0.52504 3.44992C0.277868 4.08562 0.109047 4.8126 0.0605816 5.87722C0.0113086 6.94346 0 7.28433 0 10C0 12.7157 0.0113086 13.0565 0.0605816 14.1228C0.109047 15.1874 0.277868 15.9144 0.52504 16.5501C0.780291 17.2076 1.12197 17.7658 1.67851 18.3215C2.23425 18.8772 2.7916 19.2189 3.44992 19.475C4.08643 19.7221 4.8126 19.891 5.87722 19.9394C6.94427 19.9879 7.28433 20 10 20C12.7165 20 13.0565 19.9887 14.1228 19.9394C15.1874 19.891 15.9144 19.7221 16.5501 19.475C17.2076 19.2189 17.7649 18.8772 18.3215 18.3215C18.8772 17.7658 19.2189 17.2076 19.475 16.5501C19.7221 15.9144 19.8918 15.1874 19.9394 14.1228C19.9879 13.0557 19.9992 12.7157 19.9992 10C19.9992 7.28433 19.9879 6.94346 19.9394 5.87722C19.891 4.8126 19.7221 4.08562 19.475 3.44992C19.2189 2.79241 18.8772 2.23506 18.3215 1.67851C17.7658 1.12278 17.2076 0.780291 16.5509 0.52504C15.9144 0.277868 15.1874 0.108239 14.1236 0.0605816C13.0574 0.0121163 12.7165 0 10.0008 0C7.28433 0 6.94427 0.0113086 5.87722 0.0605816" fill="#3461FD"/>
+                      </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Explore</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Category</h3>
+                <ul class="footer-links">
+                    <li><a href="#design">Design</a></li>
+                    <li><a href="#dev">Development</a></li>
+                    <li><a href="#photo">Photography</a></li>
+                    <li><a href="#health">Health & Fitness</a></li>
+                    <li><a href="#marketing">Marketing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Subscribe</h3>
+                <p class="footer-desc">Lorem Ipsum has been them an industry printer took a galley make book..</p>
+                <div class="email-input-group">
+                    <input type="email" placeholder="Your email" class="email-input">
+                    <button class="btn-subscribe">Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; eDex <br>JOB no. 1, 2, 3<br>RIHA BEGUM <br>ROLL-871273 <br>4/CST/B1</p>
+        </div>
+    </footer>
+</body>
+</html>
